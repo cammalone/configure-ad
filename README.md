@@ -59,7 +59,7 @@
 <ul>
   <li>Login to DC-1 and install the <strong>Active Directory Domain Services</strong> (AD DS) role.</li>
   <li>Promote DC-1 to a Domain Controller and set up a new forest with a domain name (e.g., <code>mydomain.com</code>).</li>
-  <li>Restart DC-1 after promotion and log in using the domain account: <code>mydomain.com\labuser</code>.</li>
+  <li>Restart DC-1 after promotion and log in using the domain account: <code>mydomain.com\jane_doe</code>.</li>
 </ul>
 
 <h2>Step 4: Create Admin User and Organizational Units (OUs) in Active Directory</h2>
