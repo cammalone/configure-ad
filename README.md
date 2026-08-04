@@ -72,6 +72,8 @@
    <li>Create 3rd OU named <strong>_CLIENTS</strong> for client.</li>
   <li>Create a new user named “Jane Doe” with the username <code>jane_admin</code> and add her to the <strong>Domain Admins</strong> security group.</li>
   <li>Log out and back in to DC-1 as <code>mydomain.com\jane_admin</code> to use this admin account moving forward.</li>
+  <p><img width="812" height="632" alt="image" src="https://github.com/user-attachments/assets/f16a0909-54db-4e39-bca5-d7987384c95c" />
+</p>
 </ul>
 
 <h2>Step 5: Join Client-1 to the Domain</h2>
