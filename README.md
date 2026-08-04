@@ -49,8 +49,10 @@
 <h2>Step 2: Ensure Connectivity between Client and Domain Controller</h2>
 <ul>
   <li>Login to Client-1 using Remote Desktop and run a continuous ping to DC-1’s private IP address (<code>ping -t &lt;ip_address&gt;</code>).</li>
-  <li>Login to DC-1 and enable ICMPv4 (ping) in the local Windows Firewall settings.</li>
+  <li>Login to DC-1 and disable local Windows Firewall settings (for testing purposes).</li>
   <li>Check Client-1 to confirm that the ping now succeeds, ensuring connectivity between the Client and Domain Controller.</li>
+  <p><img width="772" height="767" alt="image" src="https://github.com/user-attachments/assets/e0ebf61e-9262-4dd7-99ab-6590e1ce9ce9" />
+</p>
 </ul>
 
 <h2>Step 3: Install Active Directory</h2>
