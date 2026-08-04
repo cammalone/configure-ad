@@ -41,6 +41,9 @@
   <li>Set DC-1's NIC Private IP address to static to ensure consistent network connectivity.</li>
   <li>Create the Client VM (Windows 10) named “Client-1” in the same Resource Group and Vnet as DC-1.</li>
   <li>Ensure both VMs (DC-1 and Client-1) are in the same Vnet. You can verify this with Azure's Network Watcher topology tool.</li>
+   <p>
+<img width="767" height="765" alt="image" src="https://github.com/user-attachments/assets/bd6ff62e-5be5-4e4d-9ec0-6ce481a8d1c7" />
+</p>
 </ul>
 
 <h2>Step 2: Ensure Connectivity between Client and Domain Controller</h2>
