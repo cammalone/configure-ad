@@ -83,13 +83,17 @@
   <li>Login to Client-1 using the local admin account <code>labuser</code>, and join it to the domain <code>mydomain.com</code>.</li>
   <li>Once joined, restart Client-1 and verify that it appears in ADUC under the <strong>Computers</strong> container.</li>
   <li>(Optional) Create an OU called <strong>_CLIENTS</strong> and move Client-1 into this OU for organizational purposes.</li>
+  <p><img width="771" height="647" alt="image" src="https://github.com/user-attachments/assets/47ff2cb1-66fb-4f42-a6e7-9bd1611922ed" />
+</p>
 </ul>
 
 <h2>Step 6: Configure Remote Desktop via Group Policy for Non-Administrative Users</h2>
 <ul>
-  <li>Apply a new Group Policy to both <strong>_CLIENTS</strong> and <strong>_EMPLOYEES</strong> Organizational Units to allow <strong>domain users</strong> to access Remote Desktop.</li>
+  <li>Apply a new Group Policy (on client-1) to both <strong>_CLIENTS</strong> and <strong>_EMPLOYEES</strong> Organizational Units to allow <strong>domain users</strong> to access Remote Desktop.</li>
   <li>This centralizes management of Remote Desktop settings across all machines in these OUs, avoiding the need to configure individual clients manually.</li>
   <li>Ensure the policy is applied by running <code>gpupdate /force</code> on the client machines or wait for the next policy refresh cycle.</li>
+  <p><img width="710" height="722" alt="image" src="https://github.com/user-attachments/assets/d5f7000d-4dbe-43ee-a6a6-8ec75db8cbbf" />
+</p>
 </ul>
 
 <h2>Step 7: Create additional user accounts using a Powershell ISE script and verify access.</h2>
@@ -98,6 +102,8 @@
   <li>Use PowerShell to create multiple user accounts in AD, following a scripted process.</li>
   <li>Once the script completes, check ADUC to ensure the new users are created in the appropriate OU.</li>
   <li>Attempt to log into Client-1 with one of the newly created users to verify the account works correctly.</li>
+  <p><img width="517" height="495" alt="image" src="https://github.com/user-attachments/assets/3a41aa14-70b1-4a7f-919c-761d64a8030e" />
+</p>
 </ul>
 
 <h2>Conclusion</h2>
